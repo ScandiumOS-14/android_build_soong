@@ -280,3 +280,14 @@ org\.ifaa\.android\.manager.*
 org\.codeaurora\.ims.*
 # telephony-ext:
 org\.codeaurora\.internal.*
+
+###################################################
+# LineageOS
+vendor.lineage.touch.*
+
+###################################################
+# LiveDisplay
+vendor.lineage.livedisplay.*
+
+# Lineage Health Hal
+vendor.lineage.health.*
