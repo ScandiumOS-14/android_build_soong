@@ -721,6 +721,7 @@ func metalavaCmd(ctx android.ModuleContext, rule *android.RuleBuilder, javaVersi
 
 	cmd.BuiltTool("metalava").ImplicitTool(ctx.Config().HostJavaToolPath(ctx, "metalava.jar")).
 		Flag(config.JavacVmFlags).
+		Flag("-J-Xmx6114m").
 		Flag(config.MetalavaAddOpens).
 		FlagWithArg("--java-source ", javaVersion.String()).
 		FlagWithRspFileInputList("@", android.PathForModuleOut(ctx, "metalava.rsp"), srcs).
