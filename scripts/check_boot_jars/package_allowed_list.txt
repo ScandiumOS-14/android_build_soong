@@ -262,6 +262,9 @@ org\.chromium\.arc\..*
 # OP adds
 com.oplus.os
 
+# LMOFreeform
+com\.libremobileos\..*
+
 # QC adds
 com.qualcomm.qti
 com.quicinc.tcmiface
