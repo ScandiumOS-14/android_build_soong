@@ -259,8 +259,8 @@ com\.google\.i18n\.phonenumbers
 org\.chromium\.arc
 org\.chromium\.arc\..*
 
-# OP adds
-com.oplus.os
+# OPLUS adds
+com\.oplus\..*
 
 # QC adds
 com.qualcomm.qti
